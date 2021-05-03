@@ -251,63 +251,68 @@
  // (entre 2 y 4 por continente). Hacer un programa que al iniciarse pregunte mediante 
  // un prompt por un continente y destaque en rojo y en negrita aquellos paises de dicho continente.
 
-const continente = prompt ('Elija un continente');
+// const continente = prompt ('Elija un continente');
 
-const continentesLista = document.querySelectorAll('.continente');
-// const rojoYNegrita = () => {
-//    continente.style.color = 'red';
-//    continente.style.fontWeight = 'bold';
+// const continentesLista = document.querySelectorAll('.continente');
+// // const rojoYNegrita = () => {
+// //    continente.style.color = 'red';
+// //    continente.style.fontWeight = 'bold';
       
-// } Esta funcion es la que quiero usar en cada if/else if
+// // } Esta funcion es la que quiero usar en cada if/else if
 
-for (let i = 0; i < continentesLista.length; i++) {
-   if (continente === 'africa') {
-      const africa = document.querySelector('.africa');
-      africa.style.color = 'red';
-      africa.style.fontWeight = 'bold';
+// for (let i = 0; i < continentesLista.length; i++) {
+//    if (continente === 'africa') {
+//       const africa = document.querySelector('.africa');
+//       africa.style.color = 'red';
+//       africa.style.fontWeight = 'bold';
       
-   }else if (continente === 'oceania') {
-      const oceania = document.querySelector('.oceania');
-      oceania.style.color = 'red';
-      oceania.style.fontWeight = 'bold';
+//    }else if (continente === 'oceania') {
+//       const oceania = document.querySelector('.oceania');
+//       oceania.style.color = 'red';
+//       oceania.style.fontWeight = 'bold';
 
-   }else if (continente === 'south america') {
-      const southAmerica = document.querySelectorAll('.sa');
-      for (let i = 0; i < southAmerica.length; i++){
-         southAmerica[i].style.color = 'red';
-         southAmerica[i].style.fontWeight = 'bold';
-      }
+//    }else if (continente === 'south america') {
+//       const southAmerica = document.querySelectorAll('.sa');
+//       for (let i = 0; i < southAmerica.length; i++){
+//          southAmerica[i].style.color = 'red';
+//          southAmerica[i].style.fontWeight = 'bold';
+//       }
          
-   }else if (continente === 'north america') {
-      const northAmerica = document.querySelectorAll('.na');
-      for (let i = 0; i < northAmerica.length; i++){
-         northAmerica[i].style.color = 'red';
-         northAmerica[i].style.fontWeight = 'bold';
-      }
+//    }else if (continente === 'north america') {
+//       const northAmerica = document.querySelectorAll('.na');
+//       for (let i = 0; i < northAmerica.length; i++){
+//          northAmerica[i].style.color = 'red';
+//          northAmerica[i].style.fontWeight = 'bold';
+//       }
          
-   }else if (continente === 'europa') {
-      const europa = document.querySelectorAll('.eu');
-      for (let i = 0; i < europa.length; i++){
-         europa[i].style.color = 'red';
-         europa[i].style.fontWeight = 'bold';
-      }
+//    }else if (continente === 'europa') {
+//       const europa = document.querySelectorAll('.eu');
+//       for (let i = 0; i < europa.length; i++){
+//          europa[i].style.color = 'red';
+//          europa[i].style.fontWeight = 'bold';
+//       }
       
          
-   }else if (continente === 'asia') {
-      const asia = document.querySelectorAll('.asia');
-      for (let i = 0; i < asia.length; i++){
-         asia[i].style.color = 'red';
-         asia[i].style.fontWeight = 'bold';
-      }
+//    }else if (continente === 'asia') {
+//       const asia = document.querySelectorAll('.asia');
+//       for (let i = 0; i < asia.length; i++){
+//          asia[i].style.color = 'red';
+//          asia[i].style.fontWeight = 'bold';
+//       }
 
-   } else {
-      alert ('Ese continente no existe ')
-   }
-}
-console.log(continentesLista);
+//    } else {
+//       alert ('Ese continente no existe ')
+//    }
+// }
+//console.log(continentesLista);
 
 
-//ULTIMO const palabra = prompt("ingrese su comida");
+//12 BUSQUEDA
+// En un documento html crear una lista desordenada con al menos 10 items que consistan en oraciones, frases o citas. 
+// Hacer un programa que al iniciarse pregunte mediante un prompt por una palabra y destaque en rojo y en negrita aquellos 
+// items de la lista cuyo texto contenga dicha palabra.
+
+// const palabra = prompt("Ingrese una palabra al alzar");
 // //Guardo el texto donde aparece
 // const text = document.querySelectorAll("#text li");
 
@@ -315,6 +320,7 @@ console.log(continentesLista);
 //    const textHTML = text[i].innerHTML;
 //    if (textHTML.includes(palabra)){
 //       text[i].style.backgroundColor = "red";
+//       text[i].style.fontWeight = "bold";
 //    }
 // }
 
